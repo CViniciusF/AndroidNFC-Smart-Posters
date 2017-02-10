@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Aplicativo para Smart Posters</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_login">Preencha os Campos</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Logue ou cadastre-se</string>
+    <string name="action_sign_in_short">Preencha os Campos</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Aproxime o dispositivo da etiqueta</string>
+    <string name="title_activity_consultar">ConsultarActivity</string>
+    <string name="title_activity_texto">TextoActivity</string>
+</resources>

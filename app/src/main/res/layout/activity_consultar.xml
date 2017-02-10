@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.politecnico.aplicacaobolsa.ConsultarActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título do Artigo:"
+        android:id="@+id/textView2"
+        android:layout_weight="0.03"
+        android:textIsSelectable="false"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/nome" android:layout_width="match_parent"
+        android:layout_height="47dp" android:hint="Título do Artigo"
+        android:scrollHorizontally="true"
+        android:layout_weight="0.11" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor:"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <TextView android:id="@+id/senha" android:layout_width="match_parent"
+        android:layout_height="30dp" android:hint="Autores do Artigo"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionUnspecified" android:inputType="text"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ler Texto do Artigo e Avaliar"
+        android:onClick="lertxt"
+        android:id="@+id/lertxt"
+        android:layout_weight="0.03"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Nova Consulta"
+        android:onClick="novaConsulta"
+        android:id="@+id/novaConsulta"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veja também:"
+        android:id="@+id/textViewRec"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/rec1" android:layout_width="match_parent"
+        android:layout_height="41dp" android:hint="Título do Artigo Recomendado 1"
+        android:scrollHorizontally="true"
+        android:layout_weight="0.19" />
+
+    <TextView
+        android:id="@+id/rec2" android:layout_width="match_parent"
+        android:layout_height="41dp" android:hint="Título do Artigo Recomendado 2"
+        android:scrollHorizontally="true"
+        android:layout_weight="0.20" />
+
+    <TextView
+        android:id="@+id/rec3" android:layout_width="match_parent"
+        android:layout_height="41dp" android:hint="Título do Artigo Recomendado 3"
+        android:scrollHorizontally="true"
+        android:layout_weight="0.18" />
+
+
+</LinearLayout>
+
